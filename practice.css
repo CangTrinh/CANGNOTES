@@ -1,0 +1,53 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/0a/24/a8/0a24a83fe2fadd2ae0269729e3109262.jpg);
+    background-size: 100rem;
+    background-position:  top;
+}
+header>table{
+    width: max-content;
+    column-width: 0rem;
+    color: darkred;
+    text-align: center;
+    background-color: lightgrey;
+    border: 2px dashed black;
+}
+#banner{
+    column-width: auto;
+}
+#categories tr td{
+    width: 250px;
+    font-size: xx-large; font-size: xx-large;
+    background-color: rgb(109, 82, 82);
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px dotted black;
+    border-collapse: collapse;
+}
+#C_block{
+    padding: 50px 0px;
+    border: 2mm double lightgrey;
+}
+#C_head th{
+    text-align: center;
+    font-size: 3.1rem;
+    background-color: rgb(94, 59, 59);
+    color: white;
+    border: 3mm outset lightgrey;
+}
+#C_session{
+    font-size: 2rem;
+    text-align: center;
+    width: 66rem;
+}
+ tr:nth-child(even){
+    background-color: rgb(173, 122, 122);
+}
+#html_block{
+    text-align: left;
+    font-size: 2rem;
+    background-color: lightgrey;
+    margin: 0cm 1cm;
+    mix-blend-mode: darken;
+    color: darkolivegreen;
+}
